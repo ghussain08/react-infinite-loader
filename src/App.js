@@ -16,7 +16,10 @@ function App() {
         Observer API in reactJS
       </h2>
       <p>
-        Read more about it <a href="https://gulamhussain.dev">here</a>
+        Read more about it{" "}
+        <a href="https://gulamhussain.dev/react-scroll-loader-component">
+          here
+        </a>
       </p>
       <PhotoLoader />
     </div>

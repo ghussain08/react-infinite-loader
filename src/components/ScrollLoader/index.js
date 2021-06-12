@@ -12,14 +12,13 @@ class ScrollLoader extends Component {
   }
 
   createObserver = () => {
-    let observer;
     const options = {
       root: this.props.containerEl || null, // null means document viewport
       rootMargin: "0px",
       threshold: 1,
     };
 
-    observer = new IntersectionObserver(this.handleIntersect, options);
+    const observer = new IntersectionObserver(this.handleIntersect, options);
     observer.observe(this.loaderEl.current);
   };
 
